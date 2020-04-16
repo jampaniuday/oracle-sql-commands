@@ -1,7 +1,7 @@
--- script: index_rebuild.sql
+-- script: index.rebuild.sql
 -- author: Richard K @ www.rkkoranteng.com
 -- description: rebuild index belonging to a schema
--- usage: @index_rebuild.sql <schema>
+-- usage: @index.rebuild.sql <schema>
 
 set feedback off
 set hea off pages 0
