@@ -4,7 +4,7 @@
 -- usage: @pdb.rename.sql <old pdb>  <new pdb>
 
 define oldpdb = '&1';
-define newpdb = '$2';
+define newpdb = '&2';
 alter pluggable database upper('&oldpdb') close immediate;
 alter pluggable database upper('&oldpdb') open restricted;
 alter session set container = upper('&oldpdb');
